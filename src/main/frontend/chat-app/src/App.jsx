@@ -62,7 +62,6 @@ const App = () => {
         body: JSON.stringify({ message: inputValue, user: user }),
       });
       setInputValue('');
-      setUser('')
     }
   };
 
